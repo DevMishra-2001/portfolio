@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=PT+Serif:wght@700&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    background-color:rgb(174, 168, 168);
+    width: 10vw;
+    height:100vh;
+    font-family: 'Inter', sans-serif;
+}
+.sidebar nav{
+    padding:50px 10px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding:30px 5px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+.container{
+    display: flex;
+}
+.info-container{
+  /* background-color: pink; */
+  height:60vh;
+  width:80vw;
+  margin:100px auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+.devinfo{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-bottom: 90px; 
+}
+.devpic img{
+    width:430px;
+    height:60vh;
+}
+.hello{
+ font-size: 90px;
+}
+.name{
+font-size: 75px;
+font-weight: bold;
+font-family: 'Inter', sans-serif;
+
+}
+.about{
+  font-size:40px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'PT Serif', serif;
+
+}
+.buttons{
+    margin-top:20px;
+}
+.buttons button{
+   padding:10px;
+   border-radius: 10px;
+   margin-left:10px;
+   color:rgb(125, 88, 40);
+   font-weight:50px;
+   font-size: 15px;
+   cursor:pointer;
+}
+.contact-form{
+    font-family: 'Inter', sans-serif;
+
+}

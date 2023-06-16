@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=PT+Serif:wght@700&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    background-color:rgb(174, 168, 168);
+    width: 10vw;
+    height:100vh;
+    font-family: 'Inter', sans-serif;
+}
+.sidebar nav{
+    padding:50px 10px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding:30px 5px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    width:90vw;
+    position: relative;
+}
+.img{
+    width:100%;
+    
+
+}
+.container{
+    display: flex;
+}
+.about{
+    text-align:center;
+}
+.aboutme{
+    /* border:1px solid red; */
+    margin-top:40px;
+    font-size: 30px;
+    width:70vw;
+    margin-left: 70px;
+}
+.edu{
+    /* border:1px solid pink; */
+    width:70vw;
+    height:40vh;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left:0px;
+}
+.ul{
+    margin-left: 80px;
+    margin-top:40px;
+    padding:20px 20px;
+    color:rgb(75, 102, 75)
+}
+.tech{
+    /* border:1px solid green; */
+    width:70vw;
+    height:45vh;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.stack{
+    text-align: center;
+    font-size: 30px;
+}
+.techstack{
+    /* border:1px solid pink; */
+    width:70vw;
+    height:40vh;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left:0px;
+    font-size: 25px;
+
+}
+.maincontainer{
+    position:absolute;
+    border:1px solid blue;
+    bottom:200px;
+}
