@@ -84,6 +84,6 @@
 }
 .maincontainer{
     position:absolute;
-    border:1px solid blue;
     bottom:200px;
+    left:30px;
 }
